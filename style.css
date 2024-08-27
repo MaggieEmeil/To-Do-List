@@ -14,6 +14,9 @@ body{
     padding: 30px 0;
     margin: auto;
 }
+.container:hover{
+    background-color: #464545;
+}
 h2{
     text-align: center;
     font-size: 40px;
@@ -42,7 +45,7 @@ h2{
 }
 #addBtn{
     padding: 5px 0;
-    width: 20%;
+    width: 16%;
     margin: 10px;
     cursor: pointer;
     background-color: aquamarine;
@@ -54,17 +57,17 @@ h2{
 #addBtn:hover{
     background-color:aqua ;
 }
-.output {
-   width: 80%;
+#output {
+   width: 75%;
 }
 button{
-    font-size: 90%;
+    font-size: 18px;
     font-weight: bold;
     color: black;
     padding: 8px;
     border: 2px solid black;
     background-color: aquamarine;
-    width: 50%;
+    width:85px;
     border-radius: 6px;
     text-transform: uppercase;
     text-align: center;
@@ -85,4 +88,31 @@ button{
     align-items: center;
     padding: 7px 0;
     margin:auto;
+}
+#editInput{
+    display: none;
+    padding: 10px 0;
+    width: 45%;
+    margin: 10px;
+    background-color: #222;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#editButton{
+    display: none;
+    font-size: 90%;
+    font-weight: bold;
+    color: black;
+    padding:12px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    width: 40%;
+    border-radius: 6px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
 }
